@@ -209,16 +209,6 @@ Lab Challenge 5 (MCP Supply-Chain Rug Pull): enable Manifest Pinning via Signatu
 
 ---
 
-## All 10 flags at a glance
-
-| # | Challenge | EXPLOIT flag | GUARDRAIL flag |
-|---|-----------|--------------|----------------|
-| 1 | Indirect Prompt Injection | `RTL{164ac1f27fe5d1407da567642c92df42c268d3b88ee222ac6ce26ac9e25f7828}` | `RTL{4daac7e5097c4bda6d70f860f5e11bac32c351f3c921c4589e3786df1df20d0f}` |
-| 2 | RAG KB Poisoning | `RTL{085faf1f7cf11e75ceddd11c928c3013bf1ab87ac7f1cf096a7472e57551a8f8}` | `RTL{941283d7cb96fb22521a003ff5737954624c150b0d95b3584cdfa76d4e49efe0}` |
-| 3 | SSRF (metadata URL) | `RTL{eb9202a4b553f211c8362e9c28d2d82a99d030bd631f60e0981ce72fdfa587b3}` | `RTL{caea2a67fde010c911953a81ff51c907792a58fb816a56e9c21ea8454eab9abd}` |
-| 4 | Excessive Agency | `RTL{dc105b0c7605e7b00479aa6db96eec950867dd85d38c00af7f857ef00b3e5fd9}` | `RTL{34272633f0eb5c0adc8f18a819c1e994b2036a640ac904b79185a7e7a91708f6}` |
-| 5 | MCP Rug Pull | `RTL{6580a3df76a49ab85d2254c22cb0efeebd1eb91b46fc2a981558d73b0a89c654}` | `RTL{892a2ac8678d5413bd36e23e51296d49f0a01148287fccf2ced1a9529737cc30}` |
-
 > Note: these flag values were produced by running the provided lab binary. If your exam validates flags per-machine, run the binary on your own computer and read the flags from its console. The payloads and steps above are what trigger each one.
 
 
